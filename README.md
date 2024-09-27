@@ -9,9 +9,6 @@ The project includes multiple datasets:
 2. **Dirty/Balanced**: 100 "normal" images and 100 "pneumonia" images, with intentional mislabeling (30 "normal" images in the pneumonia folder and 30 "pneumonia" images in the normal folder).
 3. **3-Class**: A dataset with three classes: "normal", "bacterial pneumonia", and "viral pneumonia".
 
-## Model Details
-- **Binary Classification Model**: Differentiates between "normal" and "pneumonia" classes.
-- **3-Class Model**: Identifies "normal", "bacterial pneumonia", and "viral pneumonia".
 
 ## Evaluation Metrics
 The models were evaluated using the following metrics:
@@ -24,29 +21,15 @@ The models were evaluated using the following metrics:
 - Confusion matrices were analyzed to identify areas of improvement and model robustness.
 
 ## Installation
-To run this project locally, ensure you have the following dependencies installed:
-- Python
-- Required libraries (e.g., TensorFlow, Keras, NumPy, etc.)
+To run this project locally:
 
 Clone the repository:
 ```bash
 git clone [https://github.com/Raqiya-AlMoqbali/Medical-Image-Annotation-Job.git]
 ```
 
-Install the required packages:
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-Follow the instructions in the provided Jupyter notebooks or scripts to train the models and evaluate their performance.
-
 ## Contributing
 Feel free to contribute to this project by opening issues or submitting pull requests.
 
 ## License
 This project is licensed under the MIT License.
-
-## Acknowledgements
-- Appen for providing the dataset.
-- The Makeen Program for the opportunity to work on this project.
