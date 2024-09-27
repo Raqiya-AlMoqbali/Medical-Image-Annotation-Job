@@ -1,4 +1,4 @@
-# Medical-Image-Annotation-Job
+# Pneumonia Detection Project
 
 ## Overview
 This project aims to develop machine learning models for detecting pneumonia in chest X-ray images. The project was completed as part of the **Makeen Program** and utilizes the **Appen** platform for data collection and annotation.
@@ -30,4 +30,23 @@ To run this project locally, ensure you have the following dependencies installe
 
 Clone the repository:
 ```bash
-git clone [Your GitHub Repository URL]
+git clone [https://github.com/Raqiya-AlMoqbali/Medical-Image-Annotation-Job.git]
+```
+
+Install the required packages:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+Follow the instructions in the provided Jupyter notebooks or scripts to train the models and evaluate their performance.
+
+## Contributing
+Feel free to contribute to this project by opening issues or submitting pull requests.
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgements
+- Appen for providing the dataset.
+- The Makeen Program for the opportunity to work on this project.
